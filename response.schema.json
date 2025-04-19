@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "title": "response",
+    "properties": {
+        "body": {
+            "type": "string",
+            "description": "the message the model wishes to send"
+        }
+    },
+    "required": ["body"]
+}
